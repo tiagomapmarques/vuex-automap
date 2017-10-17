@@ -1,6 +1,6 @@
 {
   "name": "vuex-automap",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Automapping for state, getters and actions for vuex",
   "main": "./lib/index.js",
   "scripts": {
@@ -11,10 +11,12 @@
   "license": "MIT",
   "repository": "https://github.com/tiagomapmarques/vuex-automap",
   "dependencies": {
-    "vue": "^2.5.0",
-    "vuex": "^3.0.0"
+    "capitalize": "~1.0.0",
+    "vue": "~2.5.0",
+    "vuex": "~3.0.0"
   },
   "devDependencies": {
+    "@types/capitalize": "~1.0.0",
     "typescript": "~2.5.0"
   }
 }

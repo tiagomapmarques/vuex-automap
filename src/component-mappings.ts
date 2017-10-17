@@ -1,8 +1,8 @@
 import { mapState, mapGetters, mapActions } from 'vuex';
-import { capitalise } from './capitalise';
+import * as capitalize from 'capitalize';
 import { VuexAutomapState, VuexAutomapMappings } from './types';
 
-const mapName = (mod: string, name: string): string => `${mod}${capitalise(name)}`;
+const mapName = (mod: string, name: string): string => `${mod}${capitalize(name)}`;
 
 const stateReducer = (mod: string) => (acc: any, key: string) => ({
   ...acc,
